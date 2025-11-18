@@ -9,7 +9,7 @@ def choose_player_pokemon():
     return get_pokemon(name)
 
 def choose_cpu_pokemon():
-    rand_id = random.randid(1, 151)
+    rand_id = random.randint(1, 151)
     return get_pokemon(rand_id)
 
 def print_pokemon(p, owner):
